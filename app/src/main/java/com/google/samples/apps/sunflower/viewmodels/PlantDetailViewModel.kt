@@ -38,6 +38,8 @@ class PlantDetailViewModel(
     fun addPlantToGarden() {
         viewModelScope.launch {
             gardenPlantingRepository.createGardenPlanting(plantId)
+
+// @codeFlag[f5vxtBq6ZWEQrgxhuL2p1G]
         }
     }
 }
